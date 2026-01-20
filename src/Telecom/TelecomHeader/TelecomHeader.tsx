@@ -140,6 +140,12 @@ export const TelecomHeader: React.FC = () => {
                 +7 8634 45 33 33
               </a>
             </div>
+            <button 
+              onClick={() => window.location.href = 'https://acct.rgbl61.ru/'}
+              className="bg-green-500 text-black px-6 py-2.5 rounded-sm font-bold uppercase tracking-widest text-sm hover:bg-green-400 transition-colors shadow-[0_0_15px_rgba(34,197,94,0.3)] hover:shadow-[0_0_20px_rgba(34,197,94,0.5)]"
+            >
+              Личный кабинет
+            </button>
           </div>
 
           {/* MOBILE MENU BUTTON */}
@@ -166,7 +172,13 @@ export const TelecomHeader: React.FC = () => {
           <div className="pt-6 border-t border-white/10">
             <p className="text-gray-500 text-xs uppercase mb-2">Служба продаж</p>
             <a href="tel:+78634453333" className="text-white text-xl font-bold block mb-6">+7 8634 45 33 33</a>
-            <button className="w-full bg-green-500 text-black py-4 rounded-sm font-bold uppercase tracking-widest">
+            <button 
+              onClick={() => {
+                setIsMenuOpen(false);
+                window.location.href = 'https://acct.rgbl61.ru/';
+              }}
+              className="w-full bg-green-500 text-black py-4 rounded-sm font-bold uppercase tracking-widest"
+            >
               Личный кабинет
             </button>
           </div>

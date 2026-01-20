@@ -60,7 +60,7 @@ export const TelecomFooter: React.FC = () => {
         {/* Копирайт */}
         <div className="pt-8 border-t border-white/10 text-center">
           <p className="text-gray-600 text-sm">
-            © 2023 ИП Григорян Борис Леонович. Все права защищены.
+            © 2026 ИП Григорян Борис Леонович. Все права защищены.
           </p>
         </div>
       </div>

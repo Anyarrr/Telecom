@@ -7,14 +7,14 @@ export const TelecomTarif: React.FC = () => {
   const tariffs = [
     {
       speed: "100 Мбит/с",
-      price: "3300₽",
+      price: "4200₽",
       desc: "Оптимально для небольшого офиса и стабильной работы почты.",
       icon: <Zap className="text-green-500" />,
       featured: false
     },
     {
       speed: "1 Гбит/с",
-      price: "5500₽",
+      price: "6300₽",
       desc: "Максимальная мощь для крупных компаний и работы с облаками.",
       icon: <ShieldCheck className="text-green-500" />,
       featured: false
